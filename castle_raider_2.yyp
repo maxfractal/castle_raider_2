@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "castle_raider_2",
   "resources": [
+    {"id":{"name":"on_ground","path":"scripts/on_ground/on_ground.yy",},"order":12,},
     {"id":{"name":"s_Player","path":"sprites/s_Player/s_Player.yy",},"order":1,},
     {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},"order":3,},
     {"id":{"name":"s_player_attack_walk","path":"sprites/s_player_attack_walk/s_player_attack_walk.yy",},"order":5,},

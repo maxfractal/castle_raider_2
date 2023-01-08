@@ -14,6 +14,11 @@ function player_idle_state() {
 		state = states.ATTACK;
 		image_index = 0;
 	}
+	
+	if jump {
+		state = states.JUMP;
+		vsp = jump_spd;
+	}
 
 	//apply movement
 	collision();
