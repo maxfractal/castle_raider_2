@@ -7,4 +7,5 @@ function anim() {
 		case states.JUMP:
 			if vsp < 0 image_index = 0 else image_index = 1;
 		break;
+	}
 }
