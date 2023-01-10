@@ -19,6 +19,11 @@ function player_idle_state() {
 		state = states.JUMP;
 		vsp = jump_spd;
 	}
+	
+	if block {
+		state = states.BLOCK;
+		hsp = 0;
+	}
 
 	//apply movement
 	collision();

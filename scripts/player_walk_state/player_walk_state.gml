@@ -19,12 +19,15 @@ function player_walk_state() {
 		state = states.JUMP;
 		vsp = jump_spd;
 	}
+		
+	if block {
+		state = states.BLOCK;
+		hsp = 0;
+	}
 
 	//apply movement
 	collision();
 
 	//apply animations
 	anim();
-
-
 }
